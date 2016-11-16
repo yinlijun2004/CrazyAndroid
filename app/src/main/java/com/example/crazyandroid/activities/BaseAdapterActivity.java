@@ -1,5 +1,6 @@
-package com.example.crazyandroid;
+package com.example.crazyandroid.activities;
 
+import com.example.crazyandroid.R;
 import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;

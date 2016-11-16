@@ -1,4 +1,5 @@
-package com.example.crazyandroid;
+package com.example.crazyandroid.activities;
+import com.example.crazyandroid.R;
 
 import android.content.Intent;
 import android.graphics.Bitmap;

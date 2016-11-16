@@ -1,4 +1,6 @@
-package com.example.crazyandroid;
+package com.example.crazyandroid.activities;
+
+import com.example.crazyandroid.R;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

@@ -1,4 +1,4 @@
-package com.example.crazyandroid;
+package com.example.crazyandroid.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

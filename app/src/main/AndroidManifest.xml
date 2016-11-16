@@ -15,28 +15,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".BaseAdapterActivity" />
-        <activity android:name=".SimpleAdapterActivity" />
-        <activity android:name=".MyListActivity" />
+        <activity android:name=".bitmap.PaintMainActivity" />
+        <activity android:name=".activities.BaseAdapterActivity" />
+        <activity android:name=".activities.SimpleAdapterActivity" />
+        <activity android:name=".activities.MyListActivity" />
         <activity
-            android:name=".AutoCompleteActivity"
+            android:name=".activities.AutoCompleteActivity"
             android:label="@string/title_activity_auto_complete"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".GridViewTest" />
-        <activity android:name=".ExpandableListActivity" />
-        <activity android:name=".SpinnerActivity" />
-        <activity android:name=".AdapterViewFlipperActivity" />
-        <activity android:name=".StackViewActivity" />
-        <activity android:name=".CodeViewActivity" />
-        <activity android:name=".MixViewActivity" />
-        <activity android:name=".DrawViewActivity" />
-        <activity android:name=".LinearLayoutActivity" />
-        <activity android:name=".TableLayoutActivity" />
-        <activity android:name=".FrameLayoutActivity" />
-        <activity android:name=".RelativeLayoutActivity" />
-        <activity android:name=".ArrayAdapterActivity" />
-        <activity android:name=".MainListActivity"></activity>
+        <activity android:name=".activities.GridViewTest" />
+        <activity android:name=".activities.ExpandableListActivity" />
+        <activity android:name=".activities.SpinnerActivity" />
+        <activity android:name=".activities.AdapterViewFlipperActivity" />
+        <activity android:name=".activities.StackViewActivity" />
+        <activity android:name=".activities.CodeViewActivity" />
+        <activity android:name=".activities.MixViewActivity" />
+        <activity android:name=".activities.DrawViewActivity" />
+        <activity android:name=".activities.LinearLayoutActivity" />
+        <activity android:name=".activities.TableLayoutActivity" />
+        <activity android:name=".activities.FrameLayoutActivity" />
+        <activity android:name=".activities.RelativeLayoutActivity" />
+        <activity android:name=".activities.ArrayAdapterActivity" />
+        <activity android:name=".activities.MainListActivity" />
+        <activity android:name=".activities.PreferenceActivityTest" />
+        <activity android:name=".activities.FragementTestMainActivity" />
+        <activity android:name=".activities.BookDetailFragment" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".bitmap.MainActivity" />
+        <activity android:name=".bitmap.PathMainActivity"></activity>
     </application>
 
 </manifest>

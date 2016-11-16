@@ -1,4 +1,4 @@
-package com.example.crazyandroid;
+package com.example.crazyandroid.bitmap;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,12 +16,10 @@ import android.widget.RelativeLayout;
 
 public class MainActivity extends LauncherActivity {
     private final String[] activities = {
-            ".activities",
-            ".bitmap"
+            "PaintMainActivity",
     };
     Class<?> clazzs[] = {
-            com.example.crazyandroid.activities.MainActivity.class,
-            com.example.crazyandroid.bitmap.MainActivity.class
+            PaintMainActivity.class
     };
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -31,6 +29,6 @@ public class MainActivity extends LauncherActivity {
     }
     @Override
     public Intent intentForPosition(int position) {
-        return new Intent(com.example.crazyandroid.MainActivity.this, clazzs[position]);
+        return new Intent(com.example.crazyandroid.bitmap.MainActivity.this, clazzs[position]);
     }
 }
