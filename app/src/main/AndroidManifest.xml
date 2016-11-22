@@ -44,7 +44,8 @@
         <activity android:name=".bitmap.MainActivity" />
         <activity android:name=".bitmap.PathMainActivity" />
         <activity android:name=".bitmap.PathFontActivity" />
-        <activity android:name=".bitmap.DoubleDrawMainActivity"></activity>
+        <activity android:name=".bitmap.DoubleDrawMainActivity" />
+        <activity android:name=".bitmap.BallGameMainActivity"></activity>
     </application>
 
 </manifest>

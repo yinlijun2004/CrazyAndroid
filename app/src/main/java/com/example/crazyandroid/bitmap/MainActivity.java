@@ -20,12 +20,14 @@ public class MainActivity extends LauncherActivity {
             "PathMainActivity",
             "PathFontActivity",
             "DoubleDrawMainActivity",
+            "BallGameMainActivity,"
     };
     Class<?> clazzs[] = {
             PaintMainActivity.class,
             PathMainActivity.class,
             PathFontActivity.class,
             DoubleDrawMainActivity.class,
+            BallGameMainActivity.class
     };
     @Override
     public void onCreate(Bundle savedInstanceState) {
