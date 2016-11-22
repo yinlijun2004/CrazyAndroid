@@ -42,7 +42,9 @@
         <activity android:name=".activities.BookDetailFragment" />
         <activity android:name=".activities.MainActivity" />
         <activity android:name=".bitmap.MainActivity" />
-        <activity android:name=".bitmap.PathMainActivity"></activity>
+        <activity android:name=".bitmap.PathMainActivity" />
+        <activity android:name=".bitmap.PathFontActivity" />
+        <activity android:name=".bitmap.DoubleDrawMainActivity"></activity>
     </application>
 
 </manifest>

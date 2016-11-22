@@ -1,4 +1,4 @@
-package com.example.crazyandroid.bitmap;
+ package com.example.crazyandroid.bitmap;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -17,9 +17,15 @@ import android.widget.RelativeLayout;
 public class MainActivity extends LauncherActivity {
     private final String[] activities = {
             "PaintMainActivity",
+            "PathMainActivity",
+            "PathFontActivity",
+            "DoubleDrawMainActivity",
     };
     Class<?> clazzs[] = {
-            PaintMainActivity.class
+            PaintMainActivity.class,
+            PathMainActivity.class,
+            PathFontActivity.class,
+            DoubleDrawMainActivity.class,
     };
     @Override
     public void onCreate(Bundle savedInstanceState) {

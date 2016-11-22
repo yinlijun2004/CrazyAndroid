@@ -10,5 +10,4 @@ public class PaintMainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(new MyView(this, null));
     }
-
 }
